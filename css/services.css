@@ -1,0 +1,252 @@
+.servicefirst {
+    /* min-width: 100vw; */
+    width: 100%;
+    /* min-height: 100vh; */
+    background-color: #000;
+    color: white;
+    background-image: url('../src/serviceback.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer-main {
+    background-size: 100% 90% !important;
+}
+@media (max-width:767px) {
+    .footer-main {
+        background-size: 100% !important;
+    }
+    
+}
+.service-text1 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.service-headders {
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    max-width: 79%;
+    width: 100%;
+    margin-top: 55px;
+}
+
+.service-headders h3 {
+    color: #6D95FC;
+    font-family: Poppins;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.19031rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.service-headders .servicearo {
+    height: 16px;
+    width: 16px;
+    margin-bottom: 5px;
+
+}
+
+.service-main1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.service-main-text {
+    max-width: 93.75rem;
+    width: 100%;
+    height: 37.1875rem;
+    height: 100%;
+    flex-shrink: 0;
+    text-align: left;
+}
+
+.service-main-text h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+    /* 3.735rem */
+    text-transform: capitalize;
+}
+
+.service-main-text .serviceline {
+    width: 23.625rem;
+    height: 0rem;
+    flex-shrink: 0;
+    border: 2px solid white;
+    margin: 30px auto;
+}
+
+.service-main-text p {
+    color: #FFF;
+    font-family: Poppins;
+    /* font-size: 2rem; */
+    font-size: 21px;
+    /* text-align: justify; */
+    font-style: normal;
+    font-weight: 300;
+    /* line-height: 166.5%; */
+    text-transform: capitalize;
+    margin: auto 110px;
+}
+
+
+
+
+
+.servicesection {
+    width: 90%;
+    margin: auto;
+}
+
+.servicesectoncenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.servicesection1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.servicebox1 {
+    /* max-width: 600px; */
+    width: 100%;
+    /* max-height:568px ; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.servicebox2 {
+    /* max-width: 600px; */
+    width: 100%;
+    /* max-height:568px ; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.servicesection12 {
+    max-width: 297px;
+    width: 100%;
+    /* scale: 0.9; */
+    /* width: 100%; */
+    overflow: hidden;
+}
+
+.servicesection12 img {
+    /* scale: 0.9; */
+    overflow: hidden;
+    transition: all 2s ease;
+}
+
+.servicesection12 img:hover {
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+
+.footerside {
+    height: 300px;
+}
+
+@media (max-width:1635px) {
+    .service-main-text p {
+        font-size: 16px;
+    }
+    .service-headders h3 {
+        font-size: 16px;
+    }
+
+}
+@media (max-width:1200px) {
+    .service-main-text h2 {
+        font-size: 2rem;
+    }
+
+    .service-main-text p {
+        /* font-size: 21px; */
+        margin: auto 60px;
+    }
+
+    .service-main-text .serviceline {
+        width: 14rem;
+    }
+
+
+}
+
+@media (max-width:1024px) {
+
+    .service-headders h3 {
+        font-size: 0.8rem;
+    }
+
+
+}
+
+
+@media (max-width:767px) {
+    .service-text1{
+        width: 90%;
+        justify-content:flex-start;
+    }
+
+    .servicesectoncenter {
+        display: block;
+    }
+
+    /* .servicesection1 {
+        margin: 45px auto;
+    } */
+    .servicebox2 {
+        margin: 40px auto;
+    }
+
+    .footerside {
+        height: 0px;
+    }
+
+   
+    .service-main-text p {
+        font-size: 16px;
+        margin: auto 20px;
+    }
+}
+@media (max-width:567px){
+    .service-main-text p {
+        font-size: 12px;
+        /* margin: auto 60px; */
+    }
+     .service-headders h3 {
+        font-size:12px ;
+    }
+
+}
